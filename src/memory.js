@@ -12,6 +12,7 @@ function add() {
 add();
 
 var arrTest = arr.slice();
+
 function test() {
 if (arrTest[0] === undefined) {
   clearInterval(delayOutput);

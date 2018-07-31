@@ -1,7 +1,7 @@
 import { hello } from './memory';
 import { userGuess } from './memory';
 import { userOutput } from './memory';
-
+import './styles.css';
 
 $(document).ready(function() {
   $('#redColor').submit(function(event) {
@@ -36,4 +36,3 @@ $(document).ready(function() {
 });
 
 hello();
-var userInput = [];
